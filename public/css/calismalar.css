@@ -1,0 +1,87 @@
+.calcontainer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 5rem;
+}
+
+.first{
+    display: flex;
+    grid-column: 1/2;
+    justify-content: center;
+    align-items: center;
+}
+
+.second{
+    display: flex;
+    grid-column: 2/5;
+    justify-content: center;
+    align-items: center;
+}
+
+.third{
+    align-self: center;
+    justify-self: center;
+    grid-column: 5/7;
+    text-align: center;
+}
+
+.third p{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hiztext a{
+    color: white;
+}
+
+.calimage{
+    max-width: 40rem;
+    width: 100%;
+    height: 25rem;
+    border-radius: 100px;
+}
+
+.articleimg{   
+    width: 30rem !important;
+    height: 30rem !important;  
+}
+
+.artictext p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articbaslik{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button a{
+    color: white;
+}
+
+  .button3 {background-color: #f44336;} /* Red */ 
+
+.belgediv{
+    text-align: center;
+    margin-top: 5rem;
+}
