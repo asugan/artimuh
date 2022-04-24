@@ -17,7 +17,7 @@ use App\Http\Controllers\ImageUploadController;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/add-image',[ImageUploadController::class,'addImage'])->name('images.add');
+Route::get('/postekle',[ImageUploadController::class,'addImage'])->name('images.add');
 Route::get('/hakkimizda', function () {
     return view('hakkimizda');
 });

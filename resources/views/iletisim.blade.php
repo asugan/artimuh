@@ -6,7 +6,7 @@
         <div class="adrescont">
             <div class="iletisim">
                 <div class="hiztextcont">
-                    <h1 class="hiztext">İletişim</h1>
+                    <h1 class="hiztext">İletisim</h1>
                 </div>
                 <div class="ilkdivler">
                     <div class="mektupdiv">
@@ -41,53 +41,14 @@
                 </div>
             </div>
         </div>
-        <div class="ilbox">
-            <div class="background">
-                <div class="container">
-                    <div class="screen">
-                        <div class="screen-header">
-                            <div class="screen-header-left">
-                                <div class="screen-header-button close"></div>
-                                <div class="screen-header-button maximize"></div>
-                                <div class="screen-header-button minimize"></div>
-                            </div>
-                            <div class="screen-header-right">
-                                <div class="screen-header-ellipsis"></div>
-                                <div class="screen-header-ellipsis"></div>
-                                <div class="screen-header-ellipsis"></div>
-                            </div>
-                        </div>
-                        <div class="screen-body">
-                            <div class="screen-body-item left">
-                                <div class="app-title">
-                                    <span>Bize</span>
-                                    <span>Ulaşın!</span>
-                                </div>
-                                <div class="app-contact">İletişim Bilgisi : 0376 212 12 10</div>
-                            </div>
-                            <div class="screen-body-item">
-                                <div class="app-form">
-                                    <div class="app-form-group">
-                                        <input class="app-form-control" placeholder="Adınız">
-                                    </div>
-                                    <div class="app-form-group">
-                                        <input class="app-form-control" placeholder="E-Posta Adresiniz">
-                                    </div>
-                                    <div class="app-form-group">
-                                        <input class="app-form-control" placeholder="Numaranız">
-                                    </div>
-                                    <div class="app-form-group message">
-                                        <input class="app-form-control" placeholder="Mesajınızı Yazın.">
-                                    </div>
-                                    <div class="app-form-group buttons">
-                                        <button class="app-form-button">VAZGEÇ</button>
-                                        <button class="app-form-button">GÖNDER</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="pampamsocial">
+            <div class="hiztextcont">
+                <h1 class="hiztext">Sosyal Medyamız</h1>
+            </div>
+            <div class="ilbox">
+                <div><a href="twitter.com"><i class="i fa-brands fa-twitter fa-5x"></i></a></div>
+                <div><a href="twitter.com"><i class="i fa-brands fa-facebook fa-5x"></i></a></div>
+                <div><a href="twitter.com"><i class="i fa-brands fa-instagram-square fa-5x"></i></a></div>
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@
 
     <div class="tancontainer">
         <div class="soldiv">
-            <img src="{{ asset('images/sol.jpeg') }}" alt="" class="img1" />
+            <img src="{{ asset('images/resimsoll.png') }}" alt="" class="img1" />
         </div>
 
         <div class="sagdiv">
@@ -94,13 +94,13 @@
                 <img src="{{ asset('images/Asset 8@72x-8.png') }}" alt="" class="refimage" />
             </div>
             <div class="items">
-                <img src="{{ asset('images/çb logo@72x-8.png') }}" alt="" class="refimage" />
+                <img src="{{ asset('images/cblogo.png') }}" alt="" class="refimage" />
             </div>
             <div class="items">
                 <img src="{{ asset('images/yunus logo@72x-8.png') }}" alt="" class="refimage" />
             </div>
             <div class="items">
-                <img src="{{ asset('images/çb logo@72x-8.png') }}" alt="" class="refimage" />
+                <img src="{{ asset('images/cblogo.png') }}" alt="" class="refimage" />
             </div>
         </div>
     </div>
@@ -112,7 +112,7 @@
     <div class="iletisimdiv">
         <div class="iletisim">
             <div class="hiztextcont">
-                <h1 class="hiztext">İletişim</h1>
+                <h1 class="hiztext">İletisim</h1>
             </div>
             <div class="ilkdivler">
                 <div class="mektupdiv">
