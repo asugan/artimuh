@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('postimages', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->string('baslik');
             $table->text('text');
             $table->string('basimage')->nullable();
