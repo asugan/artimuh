@@ -42,9 +42,8 @@
     border-radius: 100px;
 }
 
-.articleimg{   
-    width: 30rem !important;
-    height: 30rem !important;  
+.articleimg{
+    height: 22rem !important;
 }
 
 .artictext p{

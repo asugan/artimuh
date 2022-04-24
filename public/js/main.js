@@ -2,6 +2,7 @@ $(".owl-one").owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
+    autoHeight: true,
     responsive: {
         0: {
             items: 1,
@@ -37,6 +38,7 @@ $(".owl-three").owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
+    autoHeight: true,
     responsive: {
         0: {
             items: 1,
