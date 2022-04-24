@@ -18,7 +18,13 @@
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/other.css') }}">
     <link rel="stylesheet" href="{{ asset('css/calismalar.css') }}">
-    <title>{{ config('app.name') }}</title>
+    <title>Artı Mühendislik İnşaat</title>
+    <meta name="title" content="Artı Mühendislik İnşaat">
+    <meta name="description"
+        content="Artı Mühendislik,İnşaat sizler için en iyi hizmeti veriyor.Asansör,Doğalgaz,İnşşat,Mühendislik alanında hizmet vermekteyiz.">
+    <meta name="keywords" content="Artı Mühendislik,Artı İnşaat,Asansör,Doğalgaz,İnşaat,Mekanik Tesisat">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 
 <body>
@@ -52,7 +58,7 @@
         </div>
         <div class="f2">
             <div class="footerimg">
-                <img src={{ asset('images/logosite.svg') }} alt="" class="imgfooter">
+                <img src={{ asset('images/Logosite.svg') }} alt="" class="imgfooter">
             </div>
             <div class="footertext">
                 @Copyright Eternity Web-Tasarım Ofisi

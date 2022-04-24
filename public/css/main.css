@@ -281,7 +281,7 @@ input[type=checkbox]{
 
   .footer{
 	  display: grid;
-	  border-top: red 5px solid;
+	  border-top: #FF0000 5px solid;
 	  border-bottom: red 5px solid;
 	  text-align: center;
 	  grid-template-columns: repeat(3,1fr);
