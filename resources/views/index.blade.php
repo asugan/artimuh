@@ -64,7 +64,7 @@
 
     <div class="güncelcontainer">
         <div class="hiztextcont">
-            <h1 class="hiztext">Güncel Çalışmalarımız</h1>
+            <h1 class="hiztext res">Güncel Çalışmalarımız</h1>
         </div>
         <!-- Set up your HTML -->
         <div class="owl-carousel owl-one owl-theme">
@@ -83,7 +83,7 @@
 
     <div class="güncelcontainer">
         <div class="hiztextcont">
-            <h1 class="hiztext">Referanslarımız</h1>
+            <h1 class="hiztext res">Referanslarımız</h1>
         </div>
         <!-- Set up your HTML -->
         <div class="owl-carousel owl-two owl-theme">
