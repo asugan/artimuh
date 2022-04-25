@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.jpeg') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -61,7 +62,7 @@
                 <img src={{ asset('images/Logosite.svg') }} alt="" class="imgfooter">
             </div>
             <div class="footertext">
-                @Copyright Eternity Web-Tasarım Ofisi
+                @Copyright 2022 Eternity Web-Tasarım Ofisi
             </div>
         </div>
         <div class="f3">
