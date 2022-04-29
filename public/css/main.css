@@ -105,6 +105,14 @@ h1.hiztext{
 	margin-top: 8rem;
 }
 
+.ildivler{
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+	flex-direction: column;
+}
+
+
 .ilkdivler{
 	display: grid;
 	grid-template-columns: repeat(6,1fr);
@@ -373,5 +381,8 @@ input[type=checkbox]{
 	iframe{
 		width: 250px;
 		height: 250px;
+	}
+	.harita{
+		margin-top: 2rem;
 	}
   }}

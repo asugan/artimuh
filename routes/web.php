@@ -28,6 +28,10 @@ Route::get('/belgeler', function () {
     return view('belgeler');
 });
 
+Route::get('/{postdata}/postedit', [ImageUploadController::class, 'edit']);
+Route::put('/{postdata}/postedit', [ImageUploadController::class, 'update']);
+Route::delete('{postdata}/postedit', [ImageUploadController::class, 'destroy'])->name('delete');
+
 
 Route::get('/calismalarimiz',[ImageUploadController::class,'viewImage'])->name('images.view');
 

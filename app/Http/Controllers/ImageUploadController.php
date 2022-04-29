@@ -70,4 +70,47 @@ class ImageUploadController extends Controller
             'post' => $postdata,
         ]);
     }
+
+        /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \App\Models\Postimage  $blogPost
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(Postimage $postdata)
+    {
+        return view('edit', [
+            'post' => $postdata,
+            ]); //returns the edit view with the post
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\Postimage  $blogPost
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, Postimage $postdata)
+    {
+        $postdata->update([
+            'baslik' => $request->baslik,
+            'text' => $request->text
+        ]);
+
+        return redirect('/' . $postdata->id);
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  \App\Models\Postimage  $blogPost
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(Postimage $postdata)
+    {
+        $postdata->delete();
+
+        return redirect('/calismalarimiz');
+    }
 }
