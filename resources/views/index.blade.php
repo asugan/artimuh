@@ -51,7 +51,7 @@
             <i class="fa fa-wrench fa-5x pampim"></i>
             <h1>Mekanik Tesisat</h1>
             <p>
-                Sıhhi Tesisat,Yangın Söndürme Tesisatı,Havalandırma Tesisatı,Isıtma/Soğutma Tesisatı bakım ve kurulumu.
+                Yangın Söndürme Tesisatı,Havalandırma Tesisatı,Isıtma Tesisatı bakımı ve kurulumu.
             </p>
         </div>
     </div>
