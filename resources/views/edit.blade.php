@@ -26,6 +26,11 @@
                         @method('PUT')
                         <div class="row">
                             <div class="control-group col-12">
+                                <label for="title">Kategori</label>
+                                <input type="text" id="category" class="form-control" name="category"
+                                    placeholder="Enter Post Title" value="{{ $post->category }}" required>
+                            </div>
+                            <div class="control-group col-12">
                                 <label for="title">İçerik Başlığı</label>
                                 <input type="text" id="baslik" class="form-control" name="baslik"
                                     placeholder="Enter Post Title" value="{{ $post->baslik }}" required>

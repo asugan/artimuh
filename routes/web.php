@@ -28,6 +28,12 @@ Route::get('/belgeler', function () {
     return view('belgeler');
 });
 
+Route::get('/kategori/asansör', [ImageUploadController::class, 'asansör']);
+Route::get('/kategori/dogalgaz', [ImageUploadController::class, 'dogalgaz']);
+Route::get('/kategori/insaat', [ImageUploadController::class, 'insaat']);
+Route::get('/kategori/mekanik', [ImageUploadController::class, 'mekanik']);
+Route::get('/kategori/diger', [ImageUploadController::class, 'diger']);
+
 Route::get('/{postdata}/postedit', [ImageUploadController::class, 'edit']);
 Route::put('/{postdata}/postedit', [ImageUploadController::class, 'update']);
 Route::delete('{postdata}/postedit', [ImageUploadController::class, 'destroy'])->name('delete');

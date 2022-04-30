@@ -20,8 +20,18 @@
                     <input type="file" class="form-control mb-3" required name="image3">
                     <input type="file" class="form-control" required name="image4">
                     <label class="col-12 text-center mt-5 mb-3">
-                        <h4>Textler</h4>
+                        <h4>Kategori</h4>
                     </label>
+                    <div class="form-group">
+                        <select class="form-control" name="category">
+                            <option value="">Kategori Seçin</option>
+                            <option value="asansör">Asansör</option>
+                            <option value="dogalgaz">Doğalgaz</option>
+                            <option value="insaat">İnşaat</option>
+                            <option value="mekanik">Mekanik</option>
+                            <option value="diger">Diğer</option>
+                        </select>
+                    </div>
                     <label class="col-12 text-center mt-5 mb-3">
                         <h4>Başlık</h4>
                     </label>

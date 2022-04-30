@@ -18,21 +18,31 @@ $(".owl-one").owlCarousel({
 
 $(".owl-two").owlCarousel({
     loop: true,
-    autoplay: 1,
-    margin: 10,
+    margin: 50,
     nav: true,
+    autoplayTimeout: 3000,
+    autoplay: true,
+    items: 5,
     responsive: {
         0: {
             items: 1,
+            margin: 30,
         },
-        600: {
-            items: 3,
+        611: {
+            items: 2,
+            margin: 30,
         },
-        1000: {
+        991: {
             items: 4,
+        },
+        1199: {
+            items: 5,
         },
     },
 });
+setInterval(function () {
+    slide();
+}, 5000);
 
 $(".owl-three").owlCarousel({
     loop: true,

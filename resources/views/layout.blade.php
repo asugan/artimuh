@@ -68,8 +68,10 @@
         <div class="f3">
             <div class="ilbox">
                 <div><a href="twitter.com"><i class="i fa-brands fa-twitter fa-3x"></i></a></div>
-                <div><a href="twitter.com"><i class="i fa-brands fa-facebook fa-3x"></i></a></div>
-                <div><a href="twitter.com"><i class="i fa-brands fa-instagram-square fa-3x"></i></a></div>
+                <div><a href="https://www.facebook.com/artimuhensislikinsaat/"><i
+                            class="i fa-brands fa-facebook fa-3x"></i></a></div>
+                <div><a href="https://www.instagram.com/artimuhendislikasansorinsaat/"><i
+                            class="i fa-brands fa-instagram-square fa-3x"></i></a></div>
             </div>
         </div>
     </div>

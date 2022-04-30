@@ -25,35 +25,46 @@
 
     <div class="projcontainer">
         <div class="card">
-            <i class="fa fa-elevator fa-5x pampim"></i>
-            <h1>Asansör</h1>
+            <a href="/kategori/asansör" class="aclass"><i class="fa fa-elevator fa-5x pampim"></i></a>
+            <a href="/kategori/asansör" class="aclass">
+                <h1>Asansör</h1>
+            </a>
             <p>
                 Asansörlerinizin kurulum,bakım ve onarımlarını tecrübeli kadromuzla en iyi şekilde sizin için hizmet
                 veriyor.
             </p>
         </div>
         <div class="card">
-            <i class="fa fa-fire-flame-simple fa-5x pampim"></i>
-            <h1>Doğalgaz</h1>
+            <a href="/kategori/dogalgaz" class="aclass"><i class="fa fa-fire-flame-simple fa-5x pampim"></i></a>
+            <a href="/kategori/dogalgaz" class="aclass">
+                <h1>Doğalgaz</h1>
+            </a>
             <p>
                 Doğalgaz ve ısıtma sistemlerinizin bakım,onarım ve kurulumlarını tectübeli kadromuzla en iyi şekilde sizin
                 için hizmet veriyor.
             </p>
         </div>
         <div class="card">
-            <i class="fa fa-building fa-5x pampim"></i>
-            <h1>İnşaat</h1>
+            <a href="/kategori/insaat" class="aclass"><i class="fa fa-building fa-5x pampim"></i></a>
+            <a href="/kategori/insaat" class="aclass">
+                <h1>İnşaat</h1>
+            </a>
             <p>
                 Sizin için en kaliteli inşaat mühendik hizmetini ve inşaat malzemelerini en uygun fiyatla sunuyoruz.
             </p>
         </div>
         <div class="card">
-            <i class="fa fa-wrench fa-5x pampim"></i>
-            <h1>Mekanik Tesisat</h1>
+            <a href="/kategori/mekanik" class="aclass"><i class="fa fa-wrench fa-5x pampim"></i></a>
+            <a href="/kategori/mekanik" class="aclass">
+                <h1>Mekanik Tesisat</h1>
+            </a>
             <p>
                 Yangın Söndürme Tesisatı,Havalandırma Tesisatı,Isıtma Tesisatı bakımı ve kurulumu.
             </p>
         </div>
+    </div>
+    <div class="butondiv">
+        <a href="/kategori/diger"><button class="button button3">Diğer Çalışmalarımıza Göz Atın !</button></a>
     </div>
 
     <!--Projeler Bitiş-->
@@ -84,21 +95,23 @@
             <h1 class="hiztext res">Referanslarımız</h1>
         </div>
         <!-- Set up your HTML -->
-        <div class="owl-carousel owl-two owl-theme">
-            <div class="items">
-                <img src="{{ asset('images/Asset 3@72x-8.png') }}" alt="" class="refimage" />
-            </div>
-            <div class="items">
-                <img src="{{ asset('images/Asset 8@72x-8.png') }}" alt="" class="refimage" />
-            </div>
-            <div class="items">
-                <img src="{{ asset('images/cblogo.png') }}" alt="" class="refimage" />
-            </div>
-            <div class="items">
-                <img src="{{ asset('images/yunus logo@72x-8.png') }}" alt="" class="refimage" />
-            </div>
-            <div class="items">
-                <img src="{{ asset('images/cblogo.png') }}" alt="" class="refimage" />
+        <div class="owlcont">
+            <div class="owl-carousel owl-two owl-theme">
+                <div class="items">
+                    <img src="{{ asset('images/Asset 3@72x-8.png') }}" alt="" class="refimage" />
+                </div>
+                <div class="items">
+                    <img src="{{ asset('images/Asset 8@72x-8.png') }}" alt="" class="refimage" />
+                </div>
+                <div class="items">
+                    <img src="{{ asset('images/cblogo.png') }}" alt="" class="refimage" />
+                </div>
+                <div class="items">
+                    <img src="{{ asset('images/yunus logo@72x-8.png') }}" alt="" class="refimage" />
+                </div>
+                <div class="items">
+                    <img src="{{ asset('images/logo.png') }}" alt="" class="refimage" />
+                </div>
             </div>
         </div>
     </div>

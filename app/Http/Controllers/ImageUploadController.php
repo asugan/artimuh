@@ -16,6 +16,7 @@ class ImageUploadController extends Controller
             $data= new Postimage([
                 'baslik' => $request->baslik,
                 'text' => $request->text,
+                'category' => $request->category,
             ]);
     
             if($request->file('basimage')){
@@ -95,7 +96,8 @@ class ImageUploadController extends Controller
     {
         $postdata->update([
             'baslik' => $request->baslik,
-            'text' => $request->text
+            'text' => $request->text,
+            'category' => $request->category
         ]);
 
         return redirect('/' . $postdata->id);
@@ -112,5 +114,46 @@ class ImageUploadController extends Controller
         $postdata->delete();
 
         return redirect('/calismalarimiz');
+    }
+
+    public function asansör(){
+
+        $categoryid = 'asansör';
+            
+         $posts = Postimage::query() -> where('category', $categoryid) ->paginate(3);   
+
+     return view('asansör', compact('posts'));
+    }
+    public function dogalgaz(){
+
+        $categoryid = 'dogalgaz';
+            
+         $posts = Postimage::query() -> where('category', $categoryid) ->paginate(3);   
+
+     return view('dogalgaz', compact('posts'));
+    }
+    public function insaat(){
+
+        $categoryid = 'insaat';
+            
+         $posts = Postimage::query() -> where('category', $categoryid) ->paginate(3);   
+
+     return view('insaat', compact('posts'));
+    }
+    public function mekanik(){
+
+        $categoryid = 'mekanik';
+            
+         $posts = Postimage::query() -> where('category', $categoryid) ->paginate(3);   
+
+     return view('mekanik', compact('posts'));
+    }
+    public function diger(){
+
+        $categoryid = 'diger';
+            
+         $posts = Postimage::query() -> where('category', $categoryid) ->paginate(3);   
+
+     return view('diger', compact('posts'));
     }
 }

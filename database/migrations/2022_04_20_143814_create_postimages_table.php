@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('postimages', function (Blueprint $table) {
             $table->increments('id');
             $table->string('baslik');
+            $table->string('category');
             $table->text('text');
             $table->string('basimage')->nullable();
             $table->string('image1')->nullable();

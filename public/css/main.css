@@ -14,6 +14,31 @@ body{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.aclass{
+	color: white;
+}
+
+.aclass:hover{
+	color: red;
+}
+
+.butondiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+
+.owl-two .owl-item img {
+	width: initial;
+}
+
+.owlcont{
+	padding-left: 8rem;
+	padding-right: 8rem;
+}
+
 .tancontainer{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -78,8 +103,8 @@ h1.hiztext{
 }
 
 .refimage{
-	max-width: 15rem !important;
-	max-height: 15rem !important;
+	max-width: 8rem !important;
+	max-height: 8rem !important;
 }
 
 .pampam{
@@ -117,7 +142,7 @@ h1.hiztext{
 	display: grid;
 	grid-template-columns: repeat(6,1fr);
 	margin-top: 2rem;
-	font-family: 'Elephant', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .map{
@@ -354,7 +379,7 @@ input[type=checkbox]{
 		grid-template-columns: repeat(1,1fr);
 	}
 	h1.res{
-		font-size: 1.9rem;
+		font-size: 2.5rem;
 	}
   
 
