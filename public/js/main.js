@@ -40,9 +40,7 @@ $(".owl-two").owlCarousel({
         },
     },
 });
-setInterval(function () {
-    slide();
-}, 5000);
+setInterval(5000);
 
 $(".owl-three").owlCarousel({
     loop: true,
