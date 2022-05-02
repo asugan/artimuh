@@ -15,11 +15,7 @@ body{
 }
 
 .aclass{
-	color: white;
-}
-
-.aclass:hover{
-	color: red;
+	color: black;
 }
 
 .butondiv{
@@ -69,7 +65,9 @@ h1.hiztext{
 }
 
 .card{
-	background-color: rgb(27, 34, 46);
+	background-image: url(../images/cardasansör.jpeg);
+	background-position: center;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -84,6 +82,120 @@ h1.hiztext{
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
+
+.card1{
+	background-image: url(../images/carddogalgaz.webp);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    color: white;
+	text-align: center;
+	border: 2px solid red;
+    border-radius: 100px;
+}
+
+.card1 .pampim{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.card2{
+	background-image: url(../images/cardinsaat.webp);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    color: white;
+	text-align: center;
+	border: 2px solid red;
+    border-radius: 100px;
+}
+
+.card2 .pampim{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.card3{
+	background-image: url(../images/cardmekanik.jpeg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    color: white;
+	text-align: center;
+	border: 2px solid red;
+    border-radius: 100px;
+}
+
+.card3 .pampim{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a.stretched-link:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+  }
+
+.cardinner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid rgba(0,0,0,0.3);
+    border-radius: 100px;
+    transition: 0.5s ease;
+}
+
+.card:hover .cardinner {
+    background: #f1eeea64;
+}
+
+.card:hover .cardinner a{
+	color: red;
+}
+
+.card1:hover .cardinner {
+    background: #f1eeea64;
+}
+
+.card1:hover .cardinner a{
+	color: red;
+}
+
+.card2:hover .cardinner {
+    background: #f1eeea64;
+}
+
+.card2:hover .cardinner a{
+	color: red;
+}
+
+
+.card3:hover .cardinner {
+    background: #f1eeea64;
+}
+
+.card3:hover .cardinner a{
+	color: red;
+}
+
 
 .projimg1{
 	margin-top: 2rem;
@@ -118,9 +230,9 @@ h1.hiztext{
 }
 
 .sagdiv{
-	display: flex;
-	flex-direction: column;
-	justify-self: center;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 4rem;
 }
 
 .iletisimdiv{
@@ -185,13 +297,6 @@ h1.hiztext{
 .baslik2{
 	margin-top: 2rem;
     text-align: end;
-}
-
-.projcontainer{
-	display: grid;
-	grid-template-columns: repeat(4,1fr);
-	gap: 3rem;
-	margin-top: 8rem;
 }
 
 
@@ -263,6 +368,9 @@ input[type=checkbox]{
 		grid-template-columns: repeat(1,1fr);
 		justify-items: center;
 	}
+	.cardinner{
+		padding: 5rem;
+	}
 	.soldiv{
 		display: flex;
 		flex-direction: column;
@@ -281,19 +389,12 @@ input[type=checkbox]{
 		position: relative;
 		bottom: 42rem;
 	}
-	.sagdiv{
-		display: none;
-	}
   }
 
   @media only screen and (max-width: 1200px) {
 	body{
 		padding-left: 2rem;
 		padding-right: 2rem;
-	}
-	.projcontainer{
-		display: grid;
-		grid-template-columns: repeat(2,1fr);
 	}
 	.baslik1{
 		text-align: center;
@@ -360,6 +461,13 @@ input[type=checkbox]{
 	 padding: 16px 0;
 	 z-index: 1;
 	}
+	.cardinner{
+		padding: 5rem;
+	}
+	.sagdiv{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+	}
 	.menu li:hover {
 	 display: inline-block;
 	 background-color:#4c9e9e;
@@ -398,10 +506,6 @@ input[type=checkbox]{
 		position: relative;
 		bottom: 35rem;
 		margin-left: 0.5rem;
-	}
-	.projcontainer{
-		display: grid;
-		grid-template-columns: repeat(1,1fr);
 	}
 	iframe{
 		width: 250px;

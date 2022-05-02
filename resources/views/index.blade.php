@@ -9,65 +9,47 @@
         </div>
 
         <div class="sagdiv">
-            <div class="soldiv">
-                <img src="{{ asset('images/sağresim.png') }}" alt="" class="img2" />
+            <div class="card">
+                <div class="cardinner">
+                    <a href="/kategori/asansör" class="aclass"><i class="fa fa-elevator fa-5x pampim"></i></a>
+                    <a href="/kategori/asansör" class="aclass">
+                        <h1>Asansör</h1>
+                    </a>
+                    <a href="/kategori/asansör" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="card1">
+                <div class="cardinner">
+                    <a href="/kategori/dogalgaz" class="aclass"><i
+                            class="fa fa-fire-flame-simple fa-5x pampim"></i></a>
+                    <a href="/kategori/dogalgaz" class="aclass">
+                        <h1>Doğalgaz</h1>
+                    </a>
+                    <a href="/kategori/dogalgaz" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="cardinner">
+                    <a href="/kategori/insaat" class="aclass"><i class="fa fa-building fa-5x pampim"></i></a>
+                    <a href="/kategori/insaat" class="aclass">
+                        <h1>İnşaat</h1>
+                    </a>
+                    <a href="/kategori/insaat" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="cardinner">
+                    <a href="/kategori/mekanik" class="aclass"><i class="fa fa-wrench fa-5x pampim"></i></a>
+                    <a href="/kategori/mekanik" class="aclass">
+                        <h1>Mekanik Tesisat</h1>
+                    </a>
+                    <a href="/kategori/mekanik" class="stretched-link"></a>
+                </div>
             </div>
         </div>
     </div>
 
     <!--2li Tanıtım Bitişi-->
-
-    <!--Projeler Başlangıç-->
-
-    <div class="hiztextcont">
-        <h1 class="hiztext">Hizmetlerimiz</h1>
-    </div>
-
-    <div class="projcontainer">
-        <div class="card">
-            <a href="/kategori/asansör" class="aclass"><i class="fa fa-elevator fa-5x pampim"></i></a>
-            <a href="/kategori/asansör" class="aclass">
-                <h1>Asansör</h1>
-            </a>
-            <p>
-                Asansörlerinizin kurulum,bakım ve onarımlarını tecrübeli kadromuzla en iyi şekilde sizin için hizmet
-                veriyor.
-            </p>
-        </div>
-        <div class="card">
-            <a href="/kategori/dogalgaz" class="aclass"><i class="fa fa-fire-flame-simple fa-5x pampim"></i></a>
-            <a href="/kategori/dogalgaz" class="aclass">
-                <h1>Doğalgaz</h1>
-            </a>
-            <p>
-                Doğalgaz ve ısıtma sistemlerinizin bakım,onarım ve kurulumlarını tectübeli kadromuzla en iyi şekilde sizin
-                için hizmet veriyor.
-            </p>
-        </div>
-        <div class="card">
-            <a href="/kategori/insaat" class="aclass"><i class="fa fa-building fa-5x pampim"></i></a>
-            <a href="/kategori/insaat" class="aclass">
-                <h1>İnşaat</h1>
-            </a>
-            <p>
-                Sizin için en kaliteli inşaat mühendik hizmetini ve inşaat malzemelerini en uygun fiyatla sunuyoruz.
-            </p>
-        </div>
-        <div class="card">
-            <a href="/kategori/mekanik" class="aclass"><i class="fa fa-wrench fa-5x pampim"></i></a>
-            <a href="/kategori/mekanik" class="aclass">
-                <h1>Mekanik Tesisat</h1>
-            </a>
-            <p>
-                Yangın Söndürme Tesisatı,Havalandırma Tesisatı,Isıtma Tesisatı bakımı ve kurulumu.
-            </p>
-        </div>
-    </div>
-    <div class="butondiv">
-        <a href="/kategori/diger"><button class="button button3">Diğer Çalışmalarımıza Göz Atın !</button></a>
-    </div>
-
-    <!--Projeler Bitiş-->
 
     <!-- Güncel Çalışmalar Bölümü Başlangıç -->
 
