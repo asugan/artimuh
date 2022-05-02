@@ -9,9 +9,16 @@
 body{
 	background-color: #191919;
 	color: whitesmoke;
-	padding-left: 10rem;
-	padding-right: 10rem;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.owl-one{
+	border: 2px solid red;
+	background-color: rgb(27, 34, 46);
+	border-radius: 50px;
+	padding: 3rem;
 }
 
 .aclass{
@@ -26,11 +33,26 @@ body{
 	margin-top: 5rem;
 }
 
+.owl-two{
+	display: flex;
+	border: 2px solid red;
+	background-color: rgb(27, 34, 46);
+	border-radius: 50px;
+	padding-left: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
 .owl-two .owl-item img {
 	width: initial;
 }
 
 .owlcont{
+	padding-left: 8rem;
+	padding-right: 8rem;
+}
+
+.owlcont2{
 	padding-left: 8rem;
 	padding-right: 8rem;
 }
@@ -287,6 +309,7 @@ a.stretched-link:before {
 
 .güncelitem{
 	height: 22rem !important;
+	border-radius: 50px;
 }
 
 
@@ -360,6 +383,13 @@ input[type=checkbox]{
 	  font-size: 3.5rem;
   }
 
+
+  @media only screen and (min-width: 1920px){
+	body{
+		padding-left: 10rem;
+		padding-right: 10rem;
+	}
+  }
 
 
   @media only screen and (max-width: 1290px) {
@@ -451,6 +481,15 @@ input[type=checkbox]{
   }
 
   @media (max-width: 768px) {
+	.owlcont{
+		padding: 0;
+	}  
+	.owl-one{
+		padding: 2rem;
+	}
+	.owl-two{
+		padding-left: 1rem;
+	}
 	.menu { 
 	 display:none;
 	 position: absolute;

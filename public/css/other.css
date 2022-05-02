@@ -48,6 +48,7 @@
   grid-template-columns: repeat(3,1fr);
   align-self: center;
   text-align: center;
+  gap: 4rem;
 }
 
 .i{
@@ -59,7 +60,23 @@
   grid-template-columns: repeat(1,1fr);
 }
 
+.socialcont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.socialmediatext{
+  margin-bottom:3rem ;
+}
+
 @media screen and (max-width:768px){
+  .socialcont{
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
   .hakkimizdadiv{
     display: grid;
     grid-template-columns: repeat(1,1fr);
