@@ -1,88 +1,228 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
-    <meta charset="UTF-8" />
+    <!-- Metas -->
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="{{ asset('images/logo.jpeg') }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="HTML5 Template Constex onepage themeforest" />
+    <meta name="description" content="Constex - Onepage Multi-Purpose HTML5 Template" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Constex</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="{{ asset('css/plugins.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/other.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/calismalar.css') }}">
-    <title>Artı Mühendislik İnşaat</title>
-    <meta name="title" content="Artı Mühendislik İnşaat">
-    <meta name="description"
-        content="Artı Mühendislik,İnşaat sizler için en iyi hizmeti veriyor.Asansör,Doğalgaz,İnşşat,Mühendislik alanında hizmet vermekteyiz.">
-    <meta name="keywords" content="Artı Mühendislik,Artı İnşaat,Asansör,Doğalgaz,İnşaat,Mekanik Tesisat">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
 </head>
 
 <body>
-    <!--Navbar-->
+    <!-- =====================================
+    ==== Start Loading -->
 
-    <nav class="navbar">
-        <!-- LOGO -->
-        <div class="logo"></div>
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
-            <!-- USING CHECKBOX HACK -->
-            <input type="checkbox" id="checkbox_toggle" />
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-            <!-- NAVIGATION MENUS -->
-            <div class="menu">
-                <li><a href="/">Anasayfa</a></li>
-                <li><a href="/hakkimizda">Hakkımızda</a></li>
-                <li><a href="/calismalarimiz">Çalışmalarımız</a></li>
-                <li><a href="/belgeler">Belgelerimiz</a></li>
-                <li><a href="/iletisim">İletişim</a></li>
-            </div>
-        </ul>
-    </nav>
-
-    @yield('content')
-
-
-    <div class="footer">
-        <div class="f1">
-            <img src="{{ asset('images/logo.jpeg') }}" alt="" class="imgfooter2">
-        </div>
-        <div class="f2">
-            <div class="footerimg">
-                <img src={{ asset('images/Logosite.svg') }} alt="" class="imgfooter">
-            </div>
-            <div class="footertext">
-                @Copyright 2022 Eternity Web-Tasarım Ofisi
-            </div>
-        </div>
-        <div class="f3">
-            <div class="ilbox">
-                <div><a href="twitter.com"><i class="i fa-brands fa-twitter fa-3x"></i></a></div>
-                <div><a href="https://www.facebook.com/artimuhensislikinsaat/"><i
-                            class="i fa-brands fa-facebook fa-3x"></i></a></div>
-                <div><a href="https://www.instagram.com/artimuhendislikasansorinsaat/"><i
-                            class="i fa-brands fa-instagram-square fa-3x"></i></a></div>
+    <div class="loading">
+        <div class="gooey">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
+    <!-- End Loading ====
+    ======================================= -->
+
+
+
+    @yield('content')
+
+    <!-- =====================================
+        ==== Start Footer -->
+
+    <footer class="footer bg-img" data-overlay-dark="9" data-background="img/bg3.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="about mb-md50">
+                        <div class="title">
+                            <h5>Hakkımızda</h5>
+                        </div>
+                        <p>
+                            Biz sizler için en iyi şekilde hizmet vermekte olan Çankırı'da
+                            en tanınmış mühendislik ofislerinden biriyiz.Bize hemen ulaşın
+                        </p>
+                        <div class="social">
+                            <span>Sosyal : </span>
+                            <a href="#0" class="icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#0" class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#0" class="icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#0" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#0" class="icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="insta mb-md50">
+                        <div class="title">
+                            <h5>Küçük Resimler</h5>
+                        </div>
+                        <a href="#0">
+                            <img src="{{ asset('img/artiimages/güncel1.jpeg') }}" alt="" />
+                        </a>
+                        <a href=" #0">
+                            <img src="{{ asset('img/artiimages/güncel2.jpeg') }}" alt="" />
+                        </a>
+                        <a href="#0">
+                            <img src="{{ asset('img/artiimages/güncel3.jpeg') }}" alt="" />
+                        </a>
+                        <a href="#0">
+                            <img src="{{ asset('img/artiimages/güncel4.jpeg') }}" alt="" />
+                        </a>
+                        <a href="#0">
+                            <img src="{{ asset('img/artiimages/güncel5.jpeg') }}" alt="" />
+                        </a>
+                        <a href="#0">
+                            <img src="{{ asset('img/artiimages/güncel6.jpeg') }}" alt="" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="tags mb-sm50">
+                        <div class="title">
+                            <h5>Tag Cloud</h5>
+                        </div>
+                        <span><a href="#0">Artı Mühendislik</a></span>
+                        <span><a href="#0">Asansör</a></span>
+                        <span><a href="#0">Mekanik</a></span>
+                        <span><a href="#0">İnşaar</a></span>
+                        <span><a href="#0">Doğalgaz</a></span>
+                        <span><a href="#0">Isıtma</a></span>
+                        <span><a href="#0">Mühendislik</a></span>
+                        <span><a href="#0">Artı</a></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="info">
+                        <div class="title">
+                            <h5>İletişim Bilgileri</h5>
+                        </div>
+
+                        <div class="item">
+                            <i class="icon icofont-google-map"></i>
+                            <h6>
+                                Cumhuriyet Mah.Namık Kemal Parıltı Cad. No:16<br />
+                                MERKEZ/ÇANKIRI
+                            </h6>
+                        </div>
+                        <div class="item">
+                            <i class="icon icofont-phone"></i>
+                            <h6><span>Arayın : </span> 0376 212 12 10 / 0376 212 12 11</h6>
+                        </div>
+                        <div class="item">
+                            <i class="icon icofont-email"></i>
+                            <h6>
+                                <a href="#0">
+                                    <span>Email : </span> info@artimuhendislikinsaat.com.tr
+                                </a>
+                            </h6>
+                        </div>
+                        <div class="item mb-20">
+                            <i class="icon icofont-clock-time"></i>
+                            <h6><span>Çalışma Zamanı : </span> Pt-Cuma : 08:00 - 17:00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-footer text-center">
+            <div class="container">
+                <p>&copy; 2022 <b>Eternity Web Geliştirme</b>. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Footer ====
+            ======================================= -->
+
+    <!-- jQuery -->
+    <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-migrate-3.0.0.min.js') }}"></script>
+
+    <!-- popper.min -->
+    <script src="{{ asset('js/popper.min.js') }}"></script>
+
+    <!-- bootstrap -->
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+
+    <!-- scrollIt -->
+    <script src="{{ asset('js/scrollIt.min.js') }}"></script>
+
+    <!-- jquery.waypoints.min -->
+    <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
+
+    <!-- jquery.counterup.min -->
+    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+
+    <!-- owl carousel -->
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+
+    <!-- jquery.magnific-popup js -->
+    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+
+    <!-- stellar js -->
+    <script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
+
+    <!-- isotope.pkgd.min js -->
+    <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>
+
+    <!-- YouTubePopUp.jquery -->
+    <script src="{{ asset('js/YouTubePopUp.jquery.js') }}"></script>
+
+    <!-- Map -->
+    <script src="{{ asset('js/map.js') }}"></script>
+
+    <!-- validator js -->
+    <script src="{{ asset('js/validator.js') }}"></script>
+
+    <!-- custom scripts -->
+    <script src="{{ asset('js/scripts.js') }}"></script>
+
+    <!-- custom scripts -->
+    <script src="{{ asset('js/owlarticle.js') }}"></script>
+
+    <!-- google map api -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK7lXLHQgaGdP3IvMPi1ej0B9JHUbcqB0&callback=initMap"></script>
 </body>
 
 </html>

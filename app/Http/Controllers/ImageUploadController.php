@@ -55,9 +55,14 @@ class ImageUploadController extends Controller
         }
             //View image
         public function viewImage(){
-             $postdata = Postimage::paginate(3);
+             $postdata = Postimage::paginate(6);
              return view('calismalarimiz', compact('postdata'));
           }
+          public function anasayfa(){
+            $postdata = Postimage::latest()->take(6)->get();;
+            return view('index', compact('postdata'));
+         }  
+          
         
     /**
      * Display the specified resource.

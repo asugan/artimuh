@@ -6,6 +6,47 @@
 </head>
 
 @section('content')
+    <!-- =====================================
+                        ==== Start Navbar -->
+
+    <nav class="navbar nav-fixed nav-transparent navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <a class="logo" href="#"> </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark" href="/">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/">Hizmetlerimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/">Portfolyomuz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="/">Tüm Çalışmalarımız</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Navbar ====
+                                        ======================================= -->
     <div class="container">
         <div class="row">
             <form method="post" action="{{ route('images.store') }}" enctype="multipart/form-data">
