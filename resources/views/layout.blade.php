@@ -6,15 +6,18 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Constex onepage themeforest" />
-    <meta name="description" content="Constex - Onepage Multi-Purpose HTML5 Template" />
-    <meta name="author" content="" />
+    <meta name="title" content="Artı Mühendislik İnşaat">
+    <meta name="description"
+        content="Artı Mühendislik,İnşaat sizler için en iyi hizmeti veriyor.Asansör,Doğalgaz,İnşşat,Mühendislik alanında hizmet vermekteyiz.">
+    <meta name="keywords" content="Artı Mühendislik,Artı İnşaat,Asansör,Doğalgaz,İnşaat,Mekanik Tesisat">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     <!-- Title  -->
-    <title>Constex</title>
+    <title>Artı Mühendislik İnşaat</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="{{ asset('img/artiimages/artilogo.jpeg') }}" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
