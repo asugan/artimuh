@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
     <!-- =====================================
-                                                                                                                            ==== Start Navbar -->
+                                                                                                                                ==== Start Navbar -->
 
     <nav class="navbar nav-fixed nav-transparent navbar-expand-lg">
         <div class="container">
@@ -40,9 +40,9 @@
     </nav>
 
     <!-- End Navbar ====
-                                                                                                                            ======================================= -->
+                                                                                                                                ======================================= -->
     <!-- =====================================
-                                                                                                                                                                                                                ==== Start Header -->
+                                                                                                                                                                                                                    ==== Start Header -->
 
     <header class="header slider-fade" data-scroll-index="0">
         <div class="owl-carousel owl-theme">
@@ -92,13 +92,13 @@
     </header>
 
     <!-- End Header ====
-                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                    ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                ==== Start Hero2 -->
+                                                                                                                                                                                                                    ==== Start Hero2 -->
 
     <!-- =====================================
-                                                                                                                                                                                                                ==== Start Services2 -->
+                                                                                                                                                                                                                    ==== Start Services2 -->
 
     <section class="services2 section-padding pb-90" data-scroll-index="3">
         <div class="container">
@@ -201,7 +201,7 @@
     </section>
 
     <!-- End Services2 ====
-                                                                                                                                                                                                                    ======================================= -->
+                                                                                                                                                                                                                        ======================================= -->
 
     <section class="hero2 section-padding" data-scroll-index="1">
         <div class="container">
@@ -252,10 +252,10 @@
     </section>
 
     <!-- End Hero2 ====
-                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                    ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                ==== Start Clients -->
+                                                                                                                                                                                                                    ==== Start Clients -->
 
     <div class="clients text-center">
         <div class="container">
@@ -297,10 +297,10 @@
     </div>
 
     <!-- End Clients ====
-                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                    ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                ==== Start Blog -->
+                                                                                                                                                                                                                    ==== Start Blog -->
 
     <section class="blog section-padding" data-scroll-index="6">
         <div class="container">
@@ -355,10 +355,10 @@
     </section>
 
     <!-- End Blog ====
-                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                    ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                ==== Start Portfolio -->
+                                                                                                                                                                                                                    ==== Start Portfolio -->
 
     <section class="portfolio section-padding" data-scroll-index="2" data-overlay-dark="9" data-background="img/bg.jpg">
         <div class="container">
@@ -384,14 +384,14 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items graphic">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/güncel1.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/artiimages/guncel1.jpeg') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
                                         <h6>Building</h6>
                                         <p>Work Description</p>
                                     </div>
-                                    <a href="{{ asset('img/artiimages/güncel1.jpeg') }}" class="popimg">
+                                    <a href="{{ asset('img/artiimages/guncel1.jpeg') }}" class="popimg">
                                         <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
                                     </a>
                                 </div>
@@ -402,14 +402,14 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items web">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/güncel2.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/artiimages/guncel2.jpeg') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
                                         <h6>Building</h6>
                                         <p>Work Description</p>
                                     </div>
-                                    <a href="img/artiimages/güncel2.jpeg" class="popimg">
+                                    <a href="img/artiimages/guncel2.jpeg" class="popimg">
                                         <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
                                     </a>
                                 </div>
@@ -420,7 +420,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items brand">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/güncel3.jpeg') }}" alt="image" class="img-item') }}" />
+                            <img src="{{ asset('img/artiimages/guncel3.jpeg') }}" alt="image" class="img-item') }}" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -438,7 +438,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items graphic">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/güncel4.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/artiimages/guncel4.jpeg') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -456,7 +456,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items web">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/güncel5.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/artiimages/guncel5.jpeg') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -474,7 +474,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items brand">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/güncel6.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/artiimages/guncel6.jpeg') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -492,7 +492,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items graphic">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/güncel6.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/artiimages/guncel6.jpeg') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -510,7 +510,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items web">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/güncel6.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/artiimages/guncel6.jpeg') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -530,10 +530,10 @@
     </section>
 
     <!-- End Portfolio ====
-                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                    ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                ==== Start Contact -->
+                                                                                                                                                                                                                    ==== Start Contact -->
 
     <section class="contact section-padding" data-scroll-index="4">
         <div class="container">
@@ -628,5 +628,5 @@
     </section>
 
     <!-- End Contact ====
-                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                    ======================================= -->
 @endsection

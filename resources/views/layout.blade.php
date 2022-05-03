@@ -97,22 +97,22 @@
                             <h5>Küçük Resimler</h5>
                         </div>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/güncel1.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/artiimages/guncel1.jpeg') }}" alt="" />
                         </a>
                         <a href=" #0">
-                            <img src="{{ asset('img/artiimages/güncel2.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/artiimages/guncel2.jpeg') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/güncel3.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/artiimages/guncel3.jpeg') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/güncel4.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/artiimages/guncel4.jpeg') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/güncel5.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/artiimages/guncel5.jpeg') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/güncel6.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/artiimages/guncel6.jpeg') }}" alt="" />
                         </a>
                     </div>
                 </div>
