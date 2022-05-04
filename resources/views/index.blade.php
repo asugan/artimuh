@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
     <!-- =====================================
-                                                                                                                                ==== Start Navbar -->
+                                                                                                                                                                    ==== Start Navbar -->
 
     <nav class="navbar nav-fixed nav-transparent navbar-expand-lg">
         <div class="container">
@@ -40,13 +40,13 @@
     </nav>
 
     <!-- End Navbar ====
-                                                                                                                                ======================================= -->
+                                                                                                                                                                    ======================================= -->
     <!-- =====================================
-                                                                                                                                                                                                                    ==== Start Header -->
+                                                                                                                                                                                                                                                        ==== Start Header -->
 
     <header class="header slider-fade" data-scroll-index="0">
         <div class="owl-carousel owl-theme">
-            <div class="item bg-img" data-overlay-dark="5" data-background="{{ asset('img/artiimages/bg.png') }}">
+            <div class="item bg-img" data-overlay-dark="5" data-background="{{ asset('img/bg_11_11zon.webp') }}">
                 <div class="v-middle caption mt-30">
                     <div class="container">
                         <h4>Artı Mühendislik</h4>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item bg-img" data-overlay-dark="5" data-background="{{ asset('img/artiimages/bg2.png') }}">
+            <div class="item bg-img" data-overlay-dark="5" data-background="{{ asset('img/bg2_12_11zon.webp') }}">
                 <div class="text-center v-middle caption mt-30">
                     <div class="container">
                         <h4>Artı Mühendislik</h4>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item bg-img" data-overlay-dark="5" data-background="{{ asset('img/artiimages/bg3.png') }}">
+            <div class="item bg-img" data-overlay-dark="5" data-background="{{ asset('img/bg3_13_11zon.webp') }}">
                 <div class="text-right v-middle caption mt-30">
                     <div class="container">
                         <h4>Artı</h4>
@@ -92,13 +92,13 @@
     </header>
 
     <!-- End Header ====
-                                                                                                                                                                                                                    ======================================= -->
+                                                                                                                                                                                                                                                        ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                    ==== Start Hero2 -->
+                                                                                                                                                                                                                                                        ==== Start Hero2 -->
 
     <!-- =====================================
-                                                                                                                                                                                                                    ==== Start Services2 -->
+                                                                                                                                                                                                                                                        ==== Start Services2 -->
 
     <section class="services2 section-padding pb-90" data-scroll-index="3">
         <div class="container">
@@ -115,7 +115,7 @@
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="img">
-                            <img src="{{ asset('img/services/1.jpg') }}" alt="" />
+                            <img src="{{ asset('img/1_27_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
                             <span class="icon"><i class="icofont-paint-brush"></i></span>
@@ -129,7 +129,7 @@
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="img">
-                            <img src="{{ asset('img/services/2.jpg') }}" alt="" />
+                            <img src="{{ asset('img/2_28_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
                             <span class="icon"><i class="icofont-architecture-alt"></i></span>
@@ -143,7 +143,7 @@
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="img">
-                            <img src="{{ asset('img/services/3.jpg') }}" alt="" />
+                            <img src="{{ asset('img/3_29_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
                             <span class="icon"><i class="icofont-energy-oil"></i></span>
@@ -157,7 +157,7 @@
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="img">
-                            <img src="{{ asset('img/bg.jpg') }}" alt="" />
+                            <img src="{{ asset('img/bg_4_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
                             <span class="icon"><i class="icofont-energy-oil"></i></span>
@@ -171,7 +171,7 @@
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="img">
-                            <img src="{{ asset('img/bg1.jpg') }}" alt="" />
+                            <img src="{{ asset('img/bg1_5_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
                             <span class="icon"><i class="icofont-energy-oil"></i></span>
@@ -185,7 +185,7 @@
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="img">
-                            <img src="{{ asset('img/2.jpg') }}" alt="" />
+                            <img src="{{ asset('img/2_1_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
                             <span class="icon"><i class="icofont-energy-oil"></i></span>
@@ -201,7 +201,7 @@
     </section>
 
     <!-- End Services2 ====
-                                                                                                                                                                                                                        ======================================= -->
+                                                                                                                                                                                                                                                            ======================================= -->
 
     <section class="hero2 section-padding" data-scroll-index="1">
         <div class="container">
@@ -242,7 +242,7 @@
 
                         <div class="col-lg-6">
                             <div class="img">
-                                <img src="{{ asset('img/2.png') }}" alt="" />
+                                <img src="{{ asset('img/2_2_11zon.webp') }}" alt="" />
                             </div>
                         </div>
                     </div>
@@ -252,10 +252,10 @@
     </section>
 
     <!-- End Hero2 ====
-                                                                                                                                                                                                                    ======================================= -->
+                                                                                                                                                                                                                                                        ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                    ==== Start Clients -->
+                                                                                                                                                                                                                                                        ==== Start Clients -->
 
     <div class="clients text-center">
         <div class="container">
@@ -263,32 +263,32 @@
                 <div class="col-md-12 owl-carousel owl-theme">
                     <div class="client-logo">
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/cblogo.png') }}" alt="" />
+                            <img src="{{ asset('img/cblogo_14_11zon.webp') }}" alt="" />
                         </a>
                     </div>
                     <div class="client-logo">
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/Asset 3@72x-8.png') }}" alt="" />
+                            <img src="{{ asset('img/Asset 3@72x-8_9_11zon.webp') }}" alt="" />
                         </a>
                     </div>
                     <div class="client-logo">
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/Asset 8@72x-8.png') }}" alt="" />
+                            <img src="{{ asset('img/Asset 8@72x-8_10_11zon.webp') }}" alt="" />
                         </a>
                     </div>
                     <div class="client-logo">
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/ilgaz-belediyesi-logo.png') }}" alt="" />
+                            <img src="{{ asset('img/ilgaz-belediyesi-logo_21_11zon.webp') }}" alt="" />
                         </a>
                     </div>
                     <div class="client-logo">
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/logo.png') }}" alt="" />
+                            <img src="{{ asset('img/logo_22_11zon.webp') }}" alt="" />
                         </a>
                     </div>
                     <div class="client-logo">
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/yunus logo@72x-8.png') }}" alt="" />
+                            <img src="{{ asset('img/yunus logo@72x-8_23_11zon.webp') }}" alt="" />
                         </a>
                     </div>
                 </div>
@@ -297,10 +297,10 @@
     </div>
 
     <!-- End Clients ====
-                                                                                                                                                                                                                    ======================================= -->
+                                                                                                                                                                                                                                                        ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                    ==== Start Blog -->
+                                                                                                                                                                                                                                                        ==== Start Blog -->
 
     <section class="blog section-padding" data-scroll-index="6">
         <div class="container">
@@ -355,10 +355,10 @@
     </section>
 
     <!-- End Blog ====
-                                                                                                                                                                                                                    ======================================= -->
+                                                                                                                                                                                                                                                        ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                    ==== Start Portfolio -->
+                                                                                                                                                                                                                                                        ==== Start Portfolio -->
 
     <section class="portfolio section-padding" data-scroll-index="2" data-overlay-dark="9" data-background="img/bg.jpg">
         <div class="container">
@@ -384,14 +384,14 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items graphic">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/guncel1.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/guncel1_15_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
                                         <h6>Building</h6>
                                         <p>Work Description</p>
                                     </div>
-                                    <a href="{{ asset('img/artiimages/guncel1.jpeg') }}" class="popimg">
+                                    <a href="{{ asset('img/guncel1.jpeg') }}" class="popimg">
                                         <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
                                     </a>
                                 </div>
@@ -402,14 +402,14 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items web">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/guncel2.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/guncel2_16_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
                                         <h6>Building</h6>
                                         <p>Work Description</p>
                                     </div>
-                                    <a href="img/artiimages/guncel2.jpeg" class="popimg">
+                                    <a href="img/guncel2.jpeg" class="popimg">
                                         <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
                                     </a>
                                 </div>
@@ -420,7 +420,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items brand">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/guncel3.jpeg') }}" alt="image" class="img-item') }}" />
+                            <img src="{{ asset('img/guncel3_17_11zon.webp') }}" alt="image" class="img-item') }}" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -438,7 +438,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items graphic">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/guncel4.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/guncel4_18_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -456,7 +456,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items web">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/guncel5.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/guncel5_19_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -474,7 +474,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items brand">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/guncel6.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/guncel6_20_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -492,7 +492,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items graphic">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/guncel6.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/guncel6_20_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -510,7 +510,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items web">
                         <div class="item-img">
-                            <img src="{{ asset('img/artiimages/guncel6.jpeg') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/guncel6_20_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
@@ -530,10 +530,10 @@
     </section>
 
     <!-- End Portfolio ====
-                                                                                                                                                                                                                    ======================================= -->
+                                                                                                                                                                                                                                                        ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                    ==== Start Contact -->
+                                                                                                                                                                                                                                                        ==== Start Contact -->
 
     <section class="contact section-padding" data-scroll-index="4">
         <div class="container">
@@ -628,5 +628,5 @@
     </section>
 
     <!-- End Contact ====
-                                                                                                                                                                                                                    ======================================= -->
+                                                                                                                                                                                                                                                        ======================================= -->
 @endsection

@@ -17,7 +17,7 @@
     <title>Artı Mühendislik İnşaat</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('img/artiimages/artilogo.jpeg') }}" />
+    <link rel="shortcut icon" href="{{ asset('img/artilogo_8_11zon.webp') }}" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
@@ -97,22 +97,22 @@
                             <h5>Küçük Resimler</h5>
                         </div>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/guncel1.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/guncel1_15_11zon.webp') }}" alt="" />
                         </a>
                         <a href=" #0">
-                            <img src="{{ asset('img/artiimages/guncel2.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/guncel2_16_11zon.webp') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/guncel3.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/guncel3_17_11zon.webp') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/guncel4.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/guncel4_18_11zon.webp') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/guncel5.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/guncel5_19_11zon.webp') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/artiimages/guncel6.jpeg') }}" alt="" />
+                            <img src="{{ asset('img/guncel6_20_11zon.webp') }}" alt="" />
                         </a>
                     </div>
                 </div>
