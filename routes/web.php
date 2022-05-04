@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Cformcontroller;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ImageUploadController;
 
@@ -14,7 +15,8 @@ use App\Http\Controllers\ImageUploadController;
 |
 */
 
-Route::get('/',[ImageUploadController::class,'anasayfa']);
+Route::get('/',[ImageUploadController::class,'anasayfa'])->name('index');
+Route::post('/store-contact',[Cformcontroller::class,'Cform'])->name('contact.store');
 
 Route::get('/postekle',[ImageUploadController::class,'addImage'])->name('images.add');
 Route::get('/hakkimizda', function () {
@@ -39,6 +41,7 @@ Route::delete('{postdata}/postedit', [ImageUploadController::class, 'destroy'])-
 
 
 Route::get('/calismalarimiz',[ImageUploadController::class,'viewImage'])->name('images.view');
+Route::get('/mesajlar',[Cformcontroller::class,'viewCform']);
 
 Route::get('/{postdata}', [ImageUploadController::class, 'show']);
 
