@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Navbar -->
+                                                                                                                                                                                                                                                                                                                                                                                                                        ==== Start Navbar -->
 
     <nav class="navbar nav-fixed nav-transparent navbar-expand-lg">
         <div class="container">
@@ -40,9 +40,9 @@
     </nav>
 
     <!-- End Navbar ====
-                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                        ======================================= -->
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Header -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Header -->
 
     <header class="header slider-fade" data-scroll-index="0">
         <div class="owl-carousel owl-theme">
@@ -54,7 +54,7 @@
                             MÜHENDİSLİK VE İNŞAAT<br />
                             İŞLERİNDEKİ KALİTE...
                         </h1>
-                        <a href="#0" class="butn butn-bg mt-30" data-scroll-nav="6">
+                        <a href="#calismalar" class="butn butn-bg mt-30">
                             <span>Tüm Çalışmalarımızı İnceleyin.</span>
                         </a>
                     </div>
@@ -68,7 +68,7 @@
                             MÜHENDİSLİK VE İNŞAAT<br />
                             İŞLERİNDEKİ KALİTE...
                         </h1>
-                        <a href="#0" class="butn butn-bg mt-30" data-scroll-nav="6">
+                        <a href="#calismalar" class="butn butn-bg mt-30">
                             <span>Tüm Çalışmalarımızı İnceleyin.</span>
                         </a>
                     </div>
@@ -82,7 +82,7 @@
                             MÜHENDİSLİK VE İNŞAAT<br />
                             İŞLERİNDEKİ KALİTE...
                         </h1>
-                        <a href="#0" class="butn butn-bg mt-30" data-scroll-nav="6">
+                        <a href="#calismalar" class="butn butn-bg mt-30">
                             <span>Tüm Çalışmalarımızı İnceleyin.</span>
                         </a>
                     </div>
@@ -92,19 +92,19 @@
     </header>
 
     <!-- End Header ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Hero2 -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Hero2 -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Services2 -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Services2 -->
 
     <section class="services2 section-padding pb-90" data-scroll-index="3">
         <div class="container">
             <div class="row">
                 <div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                    <h6>Neler Yapabiliriz ?</h6>
+                    <h6>Neler YAPABİLİRİZ ?</h6>
                     <h4>HİZMETLERİMİZ</h4>
                     <p>
                         Sizler için en kaliteli şekilde mühendislik hizmetleri
@@ -118,7 +118,7 @@
                             <img src="{{ asset('img/asansor_1_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
-                            <span class="icon"><i class="icofont-ebook"></i></span>
+                            <span class="icon"><i class="icofont-gear-alt"></i></span>
                             <h6>Asansör Hizmetleri</h6>
                             <p>
                                 Asansör kurulumlarını,bakım onarım ve servislerini yapmaktayız.
@@ -201,7 +201,7 @@
     </section>
 
     <!-- End Services2 ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <section class="hero2 section-padding" data-scroll-index="1">
         <div class="container">
@@ -210,7 +210,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="cont mb-md50">
-                                <h4>Neden Bizi Seçmelisiniz ?</h4>
+                                <h4>Neden BİZİ SEÇMELİSİNİZ ?</h4>
                                 <div class="feat">
                                     <span class="icon"><i class="icofont-thumbs-up"></i></span>
                                     <div class="bulk">
@@ -252,10 +252,10 @@
     </section>
 
     <!-- End Hero2 ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Clients -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Clients -->
 
     <div class="clients text-center">
         <div class="container">
@@ -297,15 +297,15 @@
     </div>
 
     <!-- End Clients ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Blog -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Blog -->
 
     <section class="blog section-padding" data-scroll-index="6">
         <div class="container">
             <div class="row">
-                <div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <div id="calismalar" class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                     <h6>Çalışmalarımızı İNCELEYİN.</h6>
                     <h4>Tüm Çalışmalarımız</h4>
                     <p>Bütün çalışmalarımızı sizler için topladık.</p>
@@ -355,10 +355,10 @@
     </section>
 
     <!-- End Blog ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Portfolio -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Portfolio -->
 
     <section class="portfolio section-padding" data-scroll-index="2" data-overlay-dark="9"
         data-background="{{ asset('img/bg_4_11zon.webp') }}">
@@ -531,10 +531,10 @@
     </section>
 
     <!-- End Portfolio ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Contact -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Contact -->
 
     <section class="contact section-padding" data-scroll-index="4">
         <div class="container">
@@ -643,5 +643,5 @@
     </section>
 
     <!-- End Contact ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
 @endsection

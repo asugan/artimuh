@@ -7,7 +7,7 @@
 
 @section('content')
     <!-- =====================================
-                        ==== Start Navbar -->
+                            ==== Start Navbar -->
 
     <nav class="navbar nav-fixed nav-transparent navbar-expand-lg">
         <div class="container">
@@ -46,7 +46,7 @@
     </nav>
 
     <!-- End Navbar ====
-                                        ======================================= -->
+                                            ======================================= -->
     <div class="container">
         <div class="row">
             <form method="post" action="{{ route('images.store') }}" enctype="multipart/form-data">
@@ -57,9 +57,9 @@
                     </label>
                     <input type="file" class="form-control mb-3" required name="basimage">
                     <input type="file" class="form-control mb-3" required name="image1">
-                    <input type="file" class="form-control mb-3" required name="image2">
-                    <input type="file" class="form-control mb-3" required name="image3">
-                    <input type="file" class="form-control" required name="image4">
+                    <input type="file" class="form-control mb-3" name="image2">
+                    <input type="file" class="form-control mb-3" name="image3">
+                    <input type="file" class="form-control" name="image4">
                     <label class="col-12 text-center mt-5 mb-3">
                         <h4>Kategori</h4>
                     </label>

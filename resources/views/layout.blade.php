@@ -68,7 +68,7 @@
                         </div>
                         <p>
                             Biz sizler için en iyi şekilde hizmet vermekte olan Çankırı'da
-                            en tanınmış mühendislik ofislerinden biriyiz.Bize hemen ulaşın
+                            en tanınmış mühendislik ofislerinden biriyiz. Bize hemen ulaşın.
                         </p>
                         <div class="social">
                             <span>Sosyal : </span>
@@ -122,13 +122,13 @@
                         <div class="title">
                             <h5>Tag Cloud</h5>
                         </div>
-                        <span><a href="#0">Artı Mühendislik</a></span>
+                        <span><a href="#0">Artı MÜHENDİSLİK</a></span>
                         <span><a href="#0">Asansör</a></span>
-                        <span><a href="#0">Mekanik</a></span>
+                        <span><a href="#0">MEKANİK</a></span>
                         <span><a href="#0">İnşaat</a></span>
                         <span><a href="#0">Doğalgaz</a></span>
                         <span><a href="#0">Isıtma</a></span>
-                        <span><a href="#0">Mühendislik</a></span>
+                        <span><a href="#0">MÜHENDİSLİK</a></span>
                         <span><a href="#0">Artı</a></span>
                     </div>
                 </div>
@@ -136,14 +136,14 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="info">
                         <div class="title">
-                            <h5>İletişim Bilgileri</h5>
+                            <h5>İLETİŞİM BİLGİLERİ</h5>
                         </div>
 
                         <div class="item">
                             <i class="icon icofont-google-map"></i>
                             <h6>
-                                Cumhuriyet Mah.Namık Kemal Parıltı Cad. No:16<br />
-                                MERKEZ/ÇANKIRI
+                                Cumhuriyet Mah.Namık Kemal Parıltı Cad.<br />
+                                No:16 MERKEZ/ÇANKIRI
                             </h6>
                         </div>
                         <div class="item">
