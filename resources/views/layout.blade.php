@@ -58,7 +58,7 @@
     <!-- =====================================
         ==== Start Footer -->
 
-    <footer class="footer bg-img" data-overlay-dark="9" data-background="img/bg3.jpg">
+    <footer class="footer bg-img" data-overlay-dark="9" data-background="{{ asset('img/bg3_7_11zon.webp') }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
