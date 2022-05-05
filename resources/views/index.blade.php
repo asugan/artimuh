@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
     <!-- =====================================
-                                                                                                                                                                                                                            ==== Start Navbar -->
+                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Navbar -->
 
     <nav class="navbar nav-fixed nav-transparent navbar-expand-lg">
         <div class="container">
@@ -17,22 +17,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" data-scroll-nav="0">Anasayfa</a>
+                        <a class="nav-link active" href="#" data-scroll-nav="0">ANASAYFA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="3">Hizmetlerimiz</a>
+                        <a class="nav-link" href="#" data-scroll-nav="3">HİZMETLERİMİZ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="1">Hakkımızda</a>
+                        <a class="nav-link" href="#" data-scroll-nav="1">HAKKIMIZDA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="2">Portfolyomuz</a>
+                        <a class="nav-link" href="#" data-scroll-nav="2">PORTFOLYOMUZ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="4">İletişim</a>
+                        <a class="nav-link" href="#" data-scroll-nav="4">İLETİŞİM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="6">Tüm Çalışmalarımız</a>
+                        <a class="nav-link" href="#" data-scroll-nav="6">TÜM ÇALIŞMALARIMIZ</a>
                     </li>
                 </ul>
             </div>
@@ -40,9 +40,9 @@
     </nav>
 
     <!-- End Navbar ====
-                                                                                                                                                                                                                            ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                ==== Start Header -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Header -->
 
     <header class="header slider-fade" data-scroll-index="0">
         <div class="owl-carousel owl-theme">
@@ -51,8 +51,8 @@
                     <div class="container">
                         <h4>Artı Mühendislik</h4>
                         <h1>
-                            Mühendislik ve İnşaat<br />
-                            İşlerindeki Kalite...
+                            MÜHENDİSLİK VE İNŞAAT<br />
+                            İŞLERİNDEKİ KALİTE...
                         </h1>
                         <a href="#0" class="butn butn-bg mt-30" data-scroll-nav="6">
                             <span>Tüm Çalışmalarımızı İnceleyin.</span>
@@ -65,8 +65,8 @@
                     <div class="container">
                         <h4>Artı Mühendislik</h4>
                         <h1>
-                            Mühendislik ve İnşaat<br />
-                            İşlerindeki Kalite...
+                            MÜHENDİSLİK VE İNŞAAT<br />
+                            İŞLERİNDEKİ KALİTE...
                         </h1>
                         <a href="#0" class="butn butn-bg mt-30" data-scroll-nav="6">
                             <span>Tüm Çalışmalarımızı İnceleyin.</span>
@@ -77,10 +77,10 @@
             <div class="item bg-img" data-overlay-dark="5" data-background="{{ asset('img/bg3_13_11zon.webp') }}">
                 <div class="text-right v-middle caption mt-30">
                     <div class="container">
-                        <h4>Artı</h4>
+                        <h4>Artı Mühendislik</h4>
                         <h1>
-                            Mühendislik ve İnşaat<br />
-                            İşlerindeki Kalite...
+                            MÜHENDİSLİK VE İNŞAAT<br />
+                            İŞLERİNDEKİ KALİTE...
                         </h1>
                         <a href="#0" class="butn butn-bg mt-30" data-scroll-nav="6">
                             <span>Tüm Çalışmalarımızı İnceleyin.</span>
@@ -92,20 +92,20 @@
     </header>
 
     <!-- End Header ====
-                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                ==== Start Hero2 -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Hero2 -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                ==== Start Services2 -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Services2 -->
 
     <section class="services2 section-padding pb-90" data-scroll-index="3">
         <div class="container">
             <div class="row">
                 <div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                    <h6>Neler Yaparız ?</h6>
-                    <h4>Hizmetlerimiz</h4>
+                    <h6>Neler Yapabiliriz ?</h6>
+                    <h4>HİZMETLERİMİZ</h4>
                     <p>
                         Sizler için en kaliteli şekilde mühendislik hizmetleri
                         sağlamaktayız.
@@ -115,13 +115,13 @@
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="img">
-                            <img src="{{ asset('img/1_27_11zon.webp') }}" alt="" />
+                            <img src="{{ asset('img/asansor_1_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
-                            <span class="icon"><i class="icofont-paint-brush"></i></span>
+                            <span class="icon"><i class="icofont-ebook"></i></span>
                             <h6>Asansör Hizmetleri</h6>
                             <p>
-                                Tecrübeli mühendislerimizle,asansör kurulumlarını,bakım onarım ve servislerini yapmaktayız.
+                                Asansör kurulumlarını,bakım onarım ve servislerini yapmaktayız.
                             </p>
                         </div>
                     </div>
@@ -129,10 +129,10 @@
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="img">
-                            <img src="{{ asset('img/2_28_11zon.webp') }}" alt="" />
+                            <img src="{{ asset('img/dogalgaz-1_1_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
-                            <span class="icon"><i class="icofont-architecture-alt"></i></span>
+                            <span class="icon"><i class="icofont-fire-burn"></i></span>
                             <h6>Doğalgaz Hizmetleri</h6>
                             <p>
                                 Doğalgaz sistemlerinin kurulumu,bakım ve onarımları.
@@ -146,7 +146,7 @@
                             <img src="{{ asset('img/3_29_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
-                            <span class="icon"><i class="icofont-energy-oil"></i></span>
+                            <span class="icon"><i class="icofont-under-construction-alt"></i></span>
                             <h6>İnşaat Hizmetleri</h6>
                             <p>
                                 İnşaat,mühendislik orta ve büyük ölçekli hizmetler.
@@ -160,7 +160,7 @@
                             <img src="{{ asset('img/bg_4_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
-                            <span class="icon"><i class="icofont-energy-oil"></i></span>
+                            <span class="icon"><i class="icofont-energy-solar"></i></span>
                             <h6>Güneş Enerjisi Sistemleri</h6>
                             <p>
                                 Güneş enerji panellerinin kurulumu,bakım ve onarımları.
@@ -185,13 +185,13 @@
                 <div class="col-lg-4">
                     <div class="item">
                         <div class="img">
-                            <img src="{{ asset('img/2_1_11zon.webp') }}" alt="" />
+                            <img src="{{ asset('img/havalandirma_3_11zon.webp') }}" alt="" />
                         </div>
                         <div class="cont">
-                            <span class="icon"><i class="icofont-energy-oil"></i></span>
-                            <h6>Sıhhi ve Pis Su Sistemleri</h6>
+                            <span class="icon"><i class="icofont-energy-water"></i></span>
+                            <h6>Havalandırma Sistemleri</h6>
                             <p>
-                                Su sistemleri için kurulum bakım ve onarım.
+                                Havalandırma sistemleri için kurulum bakım ve onarım.
                             </p>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
     </section>
 
     <!-- End Services2 ====
-                                                                                                                                                                                                                                                                                                                    ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ======================================= -->
 
     <section class="hero2 section-padding" data-scroll-index="1">
         <div class="container">
@@ -252,10 +252,10 @@
     </section>
 
     <!-- End Hero2 ====
-                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                ==== Start Clients -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Clients -->
 
     <div class="clients text-center">
         <div class="container">
@@ -297,16 +297,16 @@
     </div>
 
     <!-- End Clients ====
-                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                ==== Start Blog -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Blog -->
 
     <section class="blog section-padding" data-scroll-index="6">
         <div class="container">
             <div class="row">
                 <div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                    <h6>Çalışmalarımızı İnceleyin.</h6>
+                    <h6>Çalışmalarımızı İNCELEYİN.</h6>
                     <h4>Tüm Çalışmalarımız</h4>
                     <p>Bütün çalışmalarımızı sizler için topladık.</p>
                 </div>
@@ -348,25 +348,25 @@
                     </div>
                 @endforeach
                 <div class="col-12 text-center mt-5">
-                    <a href="/calismalarimiz" class="butn butn-bg mt-5"><span>Tüm Çalışmaları Görün.</span></a>
+                    <a href="/calismalarimiz" class="butn butn-bg mt-5"><span>Tüm Çalışmalarımızı Görün</span></a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- End Blog ====
-                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                ==== Start Portfolio -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Portfolio -->
 
     <section class="portfolio section-padding" data-scroll-index="2" data-overlay-dark="9"
         data-background="{{ asset('img/bg_4_11zon.webp') }}">
         <div class="container">
             <div class="row">
                 <div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                    <h6>En Son Projelerimiz</h6>
-                    <h4>Projelerimizi İnceleyin</h4>
+                    <h6>En Son PROJELERİMİZ</h6>
+                    <h4>PROJELERİMİZİ İNCELEYİN</h4>
                     <p>Sizler için sunduğumuz en son proje örneklerimizi inceleyin.</p>
                 </div>
 
@@ -385,50 +385,14 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items graphic">
                         <div class="item-img">
-                            <img src="{{ asset('img/guncel1_15_11zon.webp') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/insaat1_7_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
-                                        <h6>Building</h6>
-                                        <p>Work Description</p>
+                                        <h6>İnşaat</h6>
+                                        <p>İnşaat Alanı</p>
                                     </div>
-                                    <a href="{{ asset('img/guncel1.jpeg') }}" class="popimg">
-                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- gallery item -->
-                    <div class="col-lg-3 col-md-6 items web">
-                        <div class="item-img">
-                            <img src="{{ asset('img/guncel2_16_11zon.webp') }}" alt="image" class="img-item" />
-                            <div class="item-img-overlay">
-                                <div class="overlay-info full-width">
-                                    <div class="cont">
-                                        <h6>Building</h6>
-                                        <p>Work Description</p>
-                                    </div>
-                                    <a href="img/guncel2.jpeg" class="popimg">
-                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- gallery item -->
-                    <div class="col-lg-3 col-md-6 items brand">
-                        <div class="item-img">
-                            <img src="{{ asset('img/guncel3_17_11zon.webp') }}" alt="image" class="img-item') }}" />
-                            <div class="item-img-overlay">
-                                <div class="overlay-info full-width">
-                                    <div class="cont">
-                                        <h6>Building</h6>
-                                        <p>Work Description</p>
-                                    </div>
-                                    <a href="{{ asset('img/portfolio/3.jpg') }}" class="popimg">
+                                    <a href="{{ asset('img/insaat1_7_11zon.webp') }}" class="popimg">
                                         <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
                                     </a>
                                 </div>
@@ -439,32 +403,14 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items graphic">
                         <div class="item-img">
-                            <img src="{{ asset('img/guncel4_18_11zon.webp') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/insaat2_8_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
-                                        <h6>Building</h6>
-                                        <p>Work Description</p>
+                                        <h6>İnşaat</h6>
+                                        <p>İnşaat Alanı</p>
                                     </div>
-                                    <a href="{{ asset('img/portfolio/4.jpg') }}" class="popimg">
-                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- gallery item -->
-                    <div class="col-lg-3 col-md-6 items web">
-                        <div class="item-img">
-                            <img src="{{ asset('img/guncel5_19_11zon.webp') }}" alt="image" class="img-item" />
-                            <div class="item-img-overlay">
-                                <div class="overlay-info full-width">
-                                    <div class="cont">
-                                        <h6>Building</h6>
-                                        <p>Work Description</p>
-                                    </div>
-                                    <a href="{{ asset('img/portfolio/5.jpg') }}" class="popimg">
+                                    <a href="{{ asset('img/insaat2_8_11zon.webp') }}" class="popimg">
                                         <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
                                     </a>
                                 </div>
@@ -475,14 +421,14 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items brand">
                         <div class="item-img">
-                            <img src="{{ asset('img/guncel6_20_11zon.webp') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/asansor1_1_11zon.webp') }}" alt="image" class="img-item') }}" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
-                                        <h6>Building</h6>
-                                        <p>Work Description</p>
+                                        <h6>Asansör</h6>
+                                        <p>Asansör Hizmetlerimiz</p>
                                     </div>
-                                    <a href="{{ asset('img/portfolio/3.jpg') }}" class="popimg">
+                                    <a href="{{ asset('img/asansor1_1_11zon.webp') }}" class="popimg">
                                         <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
                                     </a>
                                 </div>
@@ -491,16 +437,34 @@
                     </div>
 
                     <!-- gallery item -->
-                    <div class="col-lg-3 col-md-6 items graphic">
+                    <div class="col-lg-3 col-md-6 items brand">
                         <div class="item-img">
-                            <img src="{{ asset('img/guncel6_20_11zon.webp') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/asansor2_2_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
-                                        <h6>Building</h6>
-                                        <p>Work Description</p>
+                                        <h6>Asansör</h6>
+                                        <p>Asansör Hizmetlerimiz</p>
                                     </div>
-                                    <a href="{{ asset('img/portfolio/4.jpg') }}" class="popimg">
+                                    <a href="{{ asset('img/asansor2_2_11zon.webp') }}" class="popimg">
+                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-lg-3 col-md-6 items brand">
+                        <div class="item-img">
+                            <img src="{{ asset('img/asansor3_3_11zon.webp') }}" alt="image" class="img-item" />
+                            <div class="item-img-overlay">
+                                <div class="overlay-info full-width">
+                                    <div class="cont">
+                                        <h6>Asansör</h6>
+                                        <p>Asansör Hizmetlerimiz</p>
+                                    </div>
+                                    <a href="{{ asset('img/asansor3_3_11zon.webp') }}" class="popimg">
                                         <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
                                     </a>
                                 </div>
@@ -511,14 +475,50 @@
                     <!-- gallery item -->
                     <div class="col-lg-3 col-md-6 items web">
                         <div class="item-img">
-                            <img src="{{ asset('img/guncel6_20_11zon.webp') }}" alt="image" class="img-item" />
+                            <img src="{{ asset('img/dogalgaz1_4_11zon.webp') }}" alt="image" class="img-item" />
                             <div class="item-img-overlay">
                                 <div class="overlay-info full-width">
                                     <div class="cont">
-                                        <h6>Building</h6>
-                                        <p>Work Description</p>
+                                        <h6>Doğalgaz</h6>
+                                        <p>Doğalgaz Hizmetlerimiz</p>
                                     </div>
-                                    <a href="{{ asset('img/portfolio/5.jpg') }}" class="popimg">
+                                    <a href="{{ asset('img/dogalgaz1_4_11zon.webp') }}" class="popimg">
+                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-lg-3 col-md-6 items web">
+                        <div class="item-img">
+                            <img src="{{ asset('img/dogalgaz2_5_11zon.webp') }}" alt="image" class="img-item" />
+                            <div class="item-img-overlay">
+                                <div class="overlay-info full-width">
+                                    <div class="cont">
+                                        <h6>Doğalgaz</h6>
+                                        <p>Doğalgaz Hizmetlerimiz</p>
+                                    </div>
+                                    <a href="{{ asset('img/dogalgaz2_5_11zon.webp') }}" class="popimg">
+                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-lg-3 col-md-6 items web">
+                        <div class="item-img">
+                            <img src="{{ asset('img/dogalgaz3_6_11zon.webp') }}" alt="image" class="img-item" />
+                            <div class="item-img-overlay">
+                                <div class="overlay-info full-width">
+                                    <div class="cont">
+                                        <h6>Doğalgaz</h6>
+                                        <p>Doğalgaz Hizmetlerimiz</p>
+                                    </div>
+                                    <a href="{{ asset('img/dogalgaz3_6_11zon.webp') }}" class="popimg">
                                         <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
                                     </a>
                                 </div>
@@ -531,17 +531,17 @@
     </section>
 
     <!-- End Portfolio ====
-                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                ==== Start Contact -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Contact -->
 
     <section class="contact section-padding" data-scroll-index="4">
         <div class="container">
             <div class="row">
                 <div class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                    <h6>Etkileşimde Kalın!</h6>
-                    <h4>İletişime Geçin</h4>
+                    <h6>ETKİLEŞİMDE Kalın!</h6>
+                    <h4>İLETİŞİME GEÇİN</h4>
                     <p>Aşağıdaki formu doldurarak bizimle iletişime geçebilirsiniz.</p>
                 </div>
 
@@ -609,13 +609,12 @@
                     <div class="contact-info">
                         <div class="fork">
                             <div class="fork-title">
-                                <h5>Çankırı</h5>
+                                <h5>ADRES</h5>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <p>
-                                        Cumhuriyet Mah.Namık Kemal Parıltı Cad. No:16 (İş Bankası
-                                        Üstü)
+                                        Cumhuriyet Belediye Cad. No:5/A, 18100 ÇANKIRI/MERKEZ
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
@@ -624,9 +623,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="fork">
+                        <div class="fork map">
                             <div class="fork-title">
-                                <h5>Haritada Bulun!</h5>
+                                <h5>HARİTADA BULUN!</h5>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
@@ -644,5 +643,5 @@
     </section>
 
     <!-- End Contact ====
-                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 @endsection

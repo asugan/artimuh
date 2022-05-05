@@ -72,7 +72,7 @@
                         </p>
                         <div class="social">
                             <span>Sosyal : </span>
-                            <a href="#0" class="icon">
+                            <a href="https://www.facebook.com/artimuhensislikinsaat/" class="icon">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                             <a href="#0" class="icon">
@@ -84,7 +84,7 @@
                             <a href="#0" class="icon">
                                 <i class="fab fa-behance"></i>
                             </a>
-                            <a href="#0" class="icon">
+                            <a href="https://www.instagram.com/artimuhendislikasansorinsaat/" class="icon">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
@@ -94,25 +94,25 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="insta mb-md50">
                         <div class="title">
-                            <h5>Küçük Resimler</h5>
+                            <h5>Küçük RESİMLER</h5>
                         </div>
                         <a href="#0">
-                            <img src="{{ asset('img/guncel1_15_11zon.webp') }}" alt="" />
+                            <img src="{{ asset('img/insaat1_7_11zon.webp') }}" alt="" />
                         </a>
                         <a href=" #0">
-                            <img src="{{ asset('img/guncel2_16_11zon.webp') }}" alt="" />
+                            <img src="{{ asset('img/insaat2_8_11zon.webp') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/guncel3_17_11zon.webp') }}" alt="" />
+                            <img src="{{ asset('img/asansor2_2_11zon.webp') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/guncel4_18_11zon.webp') }}" alt="" />
+                            <img src="{{ asset('img/asansor3_3_11zon.webp') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/guncel5_19_11zon.webp') }}" alt="" />
+                            <img src="{{ asset('img/dogalgaz1_4_11zon.webp') }}" alt="" />
                         </a>
                         <a href="#0">
-                            <img src="{{ asset('img/guncel6_20_11zon.webp') }}" alt="" />
+                            <img src="{{ asset('img/dogalgaz2_5_11zon.webp') }}" alt="" />
                         </a>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                         <span><a href="#0">Artı Mühendislik</a></span>
                         <span><a href="#0">Asansör</a></span>
                         <span><a href="#0">Mekanik</a></span>
-                        <span><a href="#0">İnşaar</a></span>
+                        <span><a href="#0">İnşaat</a></span>
                         <span><a href="#0">Doğalgaz</a></span>
                         <span><a href="#0">Isıtma</a></span>
                         <span><a href="#0">Mühendislik</a></span>
@@ -160,7 +160,7 @@
                         </div>
                         <div class="item mb-20">
                             <i class="icon icofont-clock-time"></i>
-                            <h6><span>Çalışma Zamanı : </span> Pt-Cuma : 08:00 - 17:00</h6>
+                            <h6><span>Çalışma Saatleri : </span> Pt-Cmt : 08:00 - 18:30</h6>
                         </div>
                     </div>
                 </div>
