@@ -17,7 +17,7 @@
     <title>Artı Mühendislik İnşaat</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('img/artilogo_8_11zon.webp') }}" />
+    <link rel="shortcut icon" href="https://i.hizliresim.com/knu6c7m.webp" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />

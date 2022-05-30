@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                        ==== Start Navbar -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Navbar -->
 
     <nav class="navbar nav-fixed nav-transparent navbar-expand-lg">
         <div class="container">
@@ -31,18 +31,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-scroll-nav="4">İLETİŞİM</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll-nav="6">TÜM ÇALIŞMALARIMIZ</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- End Navbar ====
-                                                                                                                                                                                                                                                                                                                                                                                                                        ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Header -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Header -->
 
     <header class="header slider-fade" data-scroll-index="0">
         <div class="owl-carousel owl-theme">
@@ -92,13 +89,13 @@
     </header>
 
     <!-- End Header ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Hero2 -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Hero2 -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Services2 -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Services2 -->
 
     <section class="services2 section-padding pb-90" data-scroll-index="3">
         <div class="container">
@@ -201,7 +198,7 @@
     </section>
 
     <!-- End Services2 ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ======================================= -->
 
     <section class="hero2 section-padding" data-scroll-index="1">
         <div class="container">
@@ -252,10 +249,10 @@
     </section>
 
     <!-- End Hero2 ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Clients -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Clients -->
 
     <div class="clients text-center">
         <div class="container">
@@ -297,12 +294,12 @@
     </div>
 
     <!-- End Clients ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Blog -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Blog -->
 
-    <section class="blog section-padding" data-scroll-index="6">
+    <section class="blog section-padding" data-scroll-index="2">
         <div class="container">
             <div class="row">
                 <div id="calismalar" class="section-head text-center col-lg-8 offset-lg-2 col-md-10 offset-md-1">
@@ -355,10 +352,10 @@
     </section>
 
     <!-- End Blog ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Portfolio -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Portfolio -->
 
     <section class="portfolio section-padding" data-scroll-index="2" data-overlay-dark="9"
         data-background="{{ asset('img/bg_4_11zon.webp') }}">
@@ -531,10 +528,10 @@
     </section>
 
     <!-- End Portfolio ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 
     <!-- =====================================
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ==== Start Contact -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ==== Start Contact -->
 
     <section class="contact section-padding" data-scroll-index="4">
         <div class="container">
@@ -643,5 +640,5 @@
     </section>
 
     <!-- End Contact ====
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ======================================= -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ======================================= -->
 @endsection
